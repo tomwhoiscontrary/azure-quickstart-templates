@@ -3,6 +3,6 @@ do
    wget $1/$f -O $f
 done
 
-\cp * ../../
+cp * ../../
 cd ../../
 python setup_devbox.py
