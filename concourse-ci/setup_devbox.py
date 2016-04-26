@@ -32,7 +32,7 @@ blob_service.create_container('bosh')
 blob_service.create_container('stemcell')
 
 # Generate the private key and certificate
-check_call("sh create_cert.sh", shell=True)
+check_call("sh -eux create_cert.sh", shell=True)
 check_call("cp bosh.key ./bosh/bosh", shell=True)
 with open ('bosh_cert.pem', 'r') as tmpfile:
     ssh_cert = tmpfile.read()

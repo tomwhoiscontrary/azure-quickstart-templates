@@ -20,3 +20,4 @@ echo "----"
 
 echo "Running setup ..."
 python setup_devbox.py
+echo "Finished running setup!"
