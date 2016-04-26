@@ -1,6 +1,4 @@
-#!/usr/bin/env bash
-
-set -e
+#! /bin/bash -eu
 
 echo "Start to update package lists from repositories..."
 sudo apt-get update
