@@ -1,4 +1,4 @@
-#! /bin/bash -eu
+#! /bin/bash -eux
 
 echo "Launch script running as $(whoami) at $(date) in $(pwd)"
 

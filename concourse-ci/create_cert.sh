@@ -1,4 +1,4 @@
-#! /bin/bash -eu
+#! /bin/bash -eux
 
 openssl genrsa -out bosh.key 2048 >/dev/null 2>&1
 openssl req -new -x509 -days 365 -key bosh.key -out bosh_cert.pem >/dev/null 2>&1 << EndOfMessage

@@ -1,4 +1,4 @@
-#! /bin/bash -eu
+#! /bin/bash -eux
 
 echo "Start to update package lists from repositories..."
 sudo apt-get update

@@ -1,4 +1,4 @@
-#! /bin/bash -eu
+#! /bin/bash -eux
 
 export BOSH_INIT_LOG_LEVEL='Debug'
 export BOSH_INIT_LOG_PATH='./run.log'
