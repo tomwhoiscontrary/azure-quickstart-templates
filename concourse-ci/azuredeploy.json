@@ -79,7 +79,7 @@
     "imagePublisher": "Canonical",
     "imageOffer": "UbuntuServer",
     "ubuntuOSVersion": "14.04.3-LTS",
-    "githubPath": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/concourse-ci/"
+    "githubPath": "https://raw.githubusercontent.com/tomwhoiscontrary/azure-quickstart-templates/fix-concourse/concourse-ci/"
   },
   "resources": [
     {
